@@ -1,0 +1,13 @@
+.heading {
+    font-family: 'Dancing script', cursive; 
+    color: rgb(253, 253, 200); 
+    font-size: 2.5rem; 
+    text-align: start;
+  }
+
+
+body {
+    background-image: url(b1.png);
+    background-size: cover;
+  }
+  

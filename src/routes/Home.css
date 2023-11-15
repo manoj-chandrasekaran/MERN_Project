@@ -1,0 +1,12 @@
+.heading {
+    font-family: 'Dancing script', cursive; 
+    color: rgb(239, 239, 243); 
+    font-size:large; 
+    text-align:start;
+  }
+  .Icon{
+    align-self:justify;
+  }
+  .navbar{
+    padding: 20%;
+  }
