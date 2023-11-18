@@ -1,12 +1,13 @@
 {
   "name": "spotify_backend",
   "version": "1.0.0",
-  "description": "This will contain the backend code for the spotify clone",
+  "description": "This will contain the backend code for the Spotify clone",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Agrim Chopra",
+  "author": "Manoj Chandrasekaran 21BCE2468",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.0",
