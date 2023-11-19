@@ -1,6 +1,6 @@
 # MERN_Project
 npm install
-npm start
-npm install mongoose
-npm install express
-npm install cors
+npm init -y
+npm install nodemon express mongoose
+npm install cors body-parser
+package.json start script
