@@ -4,7 +4,7 @@
   "description": "This will contain the backend code for the Spotify clone",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node index.js"
   },
   "author": "Manoj Chandrasekaran 21BCE2468",
   "license": "ISC",
@@ -16,7 +16,6 @@
     "jsonwebtoken": "^9.0.0",
     "mongoose": "^6.10.0",
     "passport": "^0.6.0",
-    "passport-jwt": "^4.0.1",
-    "nodemon": "^3.0.1"
+    "passport-jwt": "^4.0.1"
   }
 }
