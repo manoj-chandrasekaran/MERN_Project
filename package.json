@@ -4,7 +4,7 @@
   "description": "This will contain the backend code for the Spotify clone",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Manoj Chandrasekaran 21BCE2468",
