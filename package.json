@@ -1,5 +1,5 @@
 {
-  "name": "spotify_backend",
+  "name": "groovify_backend",
   "version": "1.0.0",
   "description": "This will contain the backend code for the Groovify webservice",
   "main": "index.js",
