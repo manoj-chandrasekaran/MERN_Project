@@ -1,13 +1,10 @@
 import { MongoClient } from "mongodb";
-import dontenv from "dotenv";
+import dotenv from "dotenv";
 
-dontenv.config();
-
-// Hardcoded MongoDB URI
-const hardcodedMongoUri = "mongodb+srv://test:test@cluster0.uhpk1fu.mongodb.net/?retryWrites=true&w=majority";
+dotenv.config();
 
 // Create a new MongoClient
-const client = new MongoClient(hardcodedMongoUri, {
+const client = new MongoClient(process.env.MONGO_URI, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
